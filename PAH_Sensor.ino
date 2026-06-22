@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include <string>
-#include "arduino_secrets.h"
 #include "pressure_converter.h"
 
 const uint8_t ADDRESS = 0x28;    // contains the I2C address of the Honeywell HSCMANV160MG2A3
